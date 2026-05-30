@@ -148,6 +148,9 @@ section { padding: 120px 40px; }
   letter-spacing: 2px; margin-bottom: 64px; font-weight: 300;
 }
 
+/* Ensure anchor target isn't hidden behind fixed nav on small screens */
+#contact { scroll-margin-top: 90px; }
+
 /* ===== Services ===== */
 .services { background: var(--bg-cream); }
 .services-grid {
